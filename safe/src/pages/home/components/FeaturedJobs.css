@@ -1,0 +1,121 @@
+
+/* image carousel */
+.FeaturedCarousel {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.FeaturedJobimg {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.FeaturedImages {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.carouselBtnProps {
+    font-size: 3rem;
+    color: rgb(212, 211, 211);
+    transition: 0.1s all ease-in-out;
+    width: 50;
+}
+
+.carouselBtnProps1 {
+    font-size: 3rem;
+    color: rgb(212, 211, 211);
+    transition: 0.1s all ease-in-out;
+    width: 60;
+}
+
+.carouselBtnProps:hover, .carouselBtnProps1:hover {
+    color: white;
+}
+
+.FeaturedTxt {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* responsive for Desktops (larger screens)  */
+@media only screen and (min-width: 1401px) and (max-width: 2800px) {
+
+    .FeaturedJobimg {
+    width: 260px;
+    height: 345px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    
+    .FeaturedJobimg {
+        width: 260px;
+        height: 345px;
+    }
+}
+
+/* responsive for Desktops (larger screens)  */
+@media only screen and (min-width: 1026px) and (max-width: 1200px) {
+
+    .FeaturedJobimg {
+        width: 260px;
+        height: 345px;
+    }
+}
+
+/* responsive for laptops (smaller screens) */
+@media only screen and (min-width: 900px) and (max-width: 1025px) {
+
+    .FeaturedJobimg {
+        width: 270px;
+        height: 355px;
+    }
+
+    .carouselBtnProps1 {
+        width: 60;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 899px) {
+    
+    .FeaturedJobimg {
+        width: 250px;
+        height: 335px;
+    }
+}
+
+/* responsive for Ipads/tablets */
+@media only screen and (min-width: 606px) and (max-width: 768px) {
+
+    .FeaturedJobimg {
+        width: 250px;
+        height: 335px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 605px) {
+
+    .FeaturedJobimg {
+        width: 200px;
+        height: 275px;
+    }
+}
+
+/* responsive for mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .FeaturedJobimg {
+        width: 180px;
+        height: 180px;
+    }
+
+    .carouselBtnProps, .carouselBtnProps1 {
+        font-size: 2rem;
+    }
+}
